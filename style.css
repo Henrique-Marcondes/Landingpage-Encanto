@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2? family= Lagosta & family= Source+Serif+Pro:ital,wght@1,300 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background:linear-gradient(#faf, #fff);
+} 
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+} 
+.logo{
+    width: 100px;
+    border-radius: 50px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 45px;
+}
+.cabecalho-menu-item{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    border-top: 0.4px solid #fff;
+    margin-bottom: 48px;
+}
+.quemsomos{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.quemsomosconteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.encantotitulo{
+    font-family: 'Lobster', cursiva;
+    font-weight: 400px;
+    font-size: 64px;
+}
+.encantoquemsomos{
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.imgprincesas{
+    height: 430px;
+    border: 3px solid #faf;
+    border-radius: 95px;  
+}
+.atividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.nossasatividades{
+    border-top: 0.4px solid #fff;
+    padding-top: 48px ;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contatos{
+    font-size: 34px;
+    display: block;
+    padding-bottom: 15px;
+}
+.conteudocontatos{
+    font-size: 20px;
+    padding: 5px;
+}
